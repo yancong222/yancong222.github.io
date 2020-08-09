@@ -1,0 +1,104 @@
+body { 
+
+    margin: 0; padding: 0;
+    
+    /* Good stuff to play with: */
+    background-color: #FFFFFF;
+       /* You can specify colors using words or codes like '#fff' or '#ffffff'. 
+       Go to <http://www.w3schools.com/html/html_colornames.asp> for a list of
+       color names you can use. Older browsers may freak out if you don't use 
+       the codes. */
+    font-family: Helvetica, Arial, sans-serif;
+       /* Other options: 
+       http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+    font-size: 11pt;
+    line-height: 1.5em; 
+ 
+ }
+ 
+ /* This stuff affects the main content of the page (that is, everything but the header with your name and the navigation stuff): */
+ #content {
+ 
+    margin: 2em auto; 
+    padding: 0 3em;
+ 
+    /* Feel free to replace the line above to adjust the overall width, 
+    keeping in mind that text is more difficult to read if the line length is
+    too great relative to the font size. You may want to change the header to
+    match by finding the corresponding line below. */
+    max-width: 45em; 
+ 
+    /* Potentially a good thing to play with (you might want to adjust the 
+    padding above, though): */
+    background-color: #FFFFFF;
+ 
+    /* If you want a border around the whole content area, increase the 0 to 1,
+    but borders are gross: */
+    border: 0px solid black;
+ 
+ }
+ 
+ /* This stuff affects the area at the top with the title: */
+ #header {
+ 
+    padding: 1em 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+ 
+    /* Try futzing with this: */
+    background-color: #FFFFFF;
+ 
+    /* If you want your header to go all the way across the page, delete this 
+    or comment it out: */
+    max-width: 45em;
+ 
+    /* You could play with borders: */
+ /*   border-bottom: 0px solid black;*/
+ 
+ }
+ 
+ /* Headings: */
+ h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 220%;
+    color: black;
+ }
+ h2 {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 125%;
+    color: #2E5B7F;
+ }
+ 
+ /* Links: */
+ a {
+    text-decoration: none;
+    color: Teal;
+ }
+ a:hover {
+    text-decoration: underline;
+ }
+ 
+ /* Picture: */
+ img {
+ 
+    margin-left: 2.5em;
+    margin-bottom: 2.5em;
+ 
+    /* If you want the picture to be huge, try 'float: none;' and 
+    'width: 100%;'. You might want to move it above your name then: */
+    float: right;
+    width: 16em;
+ 
+ }
+ 
+ /* Abstract formatting: */
+ .abstract {
+    border-left: 2pt solid #d0d0d0;
+    padding-left: 2em;
+    color: gray;
+ }
+ 
