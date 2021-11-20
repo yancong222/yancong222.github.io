@@ -1,3 +1,1 @@
-# yancong222.github.io
-
-# Simple; multiple tabs; personal website
+ personal website, simple, multiple tabs
