@@ -95,7 +95,7 @@ lang {
  /* Links: */
  a {
     text-decoration: none;
-   /* color: Teal; */
+    color: black; /* Teal; */
  }
  a:hover {
     text-decoration: underline;
