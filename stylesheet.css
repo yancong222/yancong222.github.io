@@ -63,13 +63,13 @@ body {
 interpretLLM {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11pt;
-    color: #47b16f;
+    color: #662422;
 }
 
 applyNLP {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11pt;
-    color: #f7968c;
+    color: #003366;
 }
 
 lang {
