@@ -58,6 +58,25 @@ body {
  /*   border-bottom: 0px solid black;*/
  
  }
+
+ /* research fields: */
+interpretLLM {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    color: #47b16f;
+}
+
+applyNLP {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    color: #f7968c;
+}
+
+lang {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    color: #aa8238;
+}
  
  /* Headings: */
  h1 {
@@ -70,13 +89,13 @@ body {
     margin-bottom: 1em;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 125%;
-    color: #2E5B7F;
+    color: black; /* #2E5B7F */
  }
  
  /* Links: */
  a {
     text-decoration: none;
-    color: Teal;
+   /* color: Teal; */
  }
  a:hover {
     text-decoration: underline;
