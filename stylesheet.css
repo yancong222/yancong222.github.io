@@ -132,14 +132,16 @@ lang {
  h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 220%;
-    color: black;
+   color: var(--text);
+    /*color: black;*/
  }
  h2 {
     margin-top: 2.5em;
     margin-bottom: 1em;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 125%;
-    color: black; /* #2E5B7F */
+    color: var(--text);
+/*color: black; /* #2E5B7F */
  }
  
  /* Links: */
