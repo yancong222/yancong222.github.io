@@ -43,7 +43,7 @@ body {
     margin: 0; padding: 0;
     
     /* Good stuff to play with: */
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF; */
        /* You can specify colors using words or codes like '#fff' or '#ffffff'. 
        Go to <http://www.w3schools.com/html/html_colornames.asp> for a list of
        color names you can use. Older browsers may freak out if you don't use 
@@ -70,7 +70,7 @@ body {
  
     /* Potentially a good thing to play with (you might want to adjust the 
     padding above, though): */
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
  
     /* If you want a border around the whole content area, increase the 0 to 1,
     but borders are gross: */
@@ -88,7 +88,7 @@ body {
     margin-bottom: 2em;
  
     /* Try futzing with this: */
-    background-color: #FFFFFF;
+   /* background-color: #FFFFFF;*/
  
     /* If you want your header to go all the way across the page, delete this 
     or comment it out: */
