@@ -1,23 +1,42 @@
+/* LIGHT MODE (default) */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   --bg: #ffffff;
   --text: #111111;
-  --link:#006666;
+  --link: #006666;
+  --border: #cccccc;
 }
 
+/* DARK MODE */
 [data-theme="dark"] {
+  color-scheme: dark;
   --bg: #111111;
-  --text: #eeeeee;
-  --link:#66cccc;
+  --text: #e8e8e8;
+  --link: #66cccc;
+  --border: #444444;
 }
 
-/* Apply variables */
+/* APPLY VARIABLES */
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   color: var(--text);
 }
 
-a { color: var(--link); }
+/* Adjust any containers that have their own backgrounds */
+#header {
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+#sidebar {
+  background-color: var(--bg);
+  border-right: 1px solid var(--border);
+}
+
+a {
+  color: var(--link);
+}
+
 
 body { 
 
