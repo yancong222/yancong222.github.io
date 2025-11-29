@@ -1,3 +1,24 @@
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --text: #111111;
+  --link:#006666;
+}
+
+[data-theme="dark"] {
+  --bg: #111111;
+  --text: #eeeeee;
+  --link:#66cccc;
+}
+
+/* Apply variables */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--link); }
+
 body { 
 
     margin: 0; padding: 0;
