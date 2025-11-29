@@ -42,7 +42,12 @@ a {
   color: var(--link);
 }
 
+#header, #sidebar, #content {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
 
+/* original */
 body { 
 
     margin: 0; padding: 0;
@@ -75,7 +80,7 @@ body {
  
     /* Potentially a good thing to play with (you might want to adjust the 
     padding above, though): */
-    /*background-color: #FFFFFF;*/
+    *background-color: #FFFFFF;
  
     /* If you want a border around the whole content area, increase the 0 to 1,
     but borders are gross: */
