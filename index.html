@@ -21,9 +21,10 @@
             <!-- href="experience.html">Experience -->
             <a href="research.html">Research</a>
             <a href="teach.html">Teaching</a>
-          <button id="theme-toggle" style="margin-left:20px; cursor:pointer;">
+<button id="theme-toggle" style="margin-left:20px; cursor:pointer; background:none; border:1px solid var(--border); padding:4px 10px; border-radius:6px; color:var(--text);">
   🌙 Dark
 </button>
+
 
           </div>
           <h1>Yan Cong <br/> <br/> 丛芫</h1>
@@ -117,27 +118,33 @@
 (function() {
   const btn = document.getElementById("theme-toggle");
 
-  // load saved theme
+  // load saved theme or default
   const saved = localStorage.getItem("theme");
-  if (saved) document.documentElement.setAttribute("data-theme", saved);
-
-  // set initial button label
-  function updateLabel() {
-    const theme = document.documentElement.getAttribute("data-theme");
-    btn.textContent = theme === "dark" ? "☀️ Light" : "🌙 Dark";
+  if (saved) {
+    document.documentElement.setAttribute("data-theme", saved);
   }
-  updateLabel();
 
-  // toggle handler
+  function updateButton() {
+    const theme = document.documentElement.getAttribute("data-theme");
+    if (theme === "dark") {
+      btn.textContent = "☀️ Light";
+    } else {
+      btn.textContent = "🌙 Dark";
+    }
+  }
+
+  updateButton();
+
   btn.addEventListener("click", () => {
     const current = document.documentElement.getAttribute("data-theme");
     const next = current === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("theme", next);
-    updateLabel();
+    updateButton();
   });
 })();
 </script>
+
 
     
     </body>
