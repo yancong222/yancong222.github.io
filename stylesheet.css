@@ -7,6 +7,11 @@
   --border: #cccccc;
 }
 
+html, body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
 /* DARK MODE */
 [data-theme="dark"] {
   color-scheme: dark;
@@ -43,7 +48,7 @@ body {
     margin: 0; padding: 0;
     
     /* Good stuff to play with: */
-    /*background-color: #FFFFFF; */
+    background-color: #FFFFFF; 
        /* You can specify colors using words or codes like '#fff' or '#ffffff'. 
        Go to <http://www.w3schools.com/html/html_colornames.asp> for a list of
        color names you can use. Older browsers may freak out if you don't use 
@@ -88,7 +93,7 @@ body {
     margin-bottom: 2em;
  
     /* Try futzing with this: */
-   /* background-color: #FFFFFF;*/
+    background-color: #FFFFFF;
  
     /* If you want your header to go all the way across the page, delete this 
     or comment it out: */
