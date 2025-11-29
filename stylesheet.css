@@ -1,25 +1,25 @@
+html, body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+
 /* LIGHT MODE (default) */
 :root {
-  color-scheme: light;
   --bg: #ffffff;
   --text: #111111;
   --link: #006666;
   --border: #cccccc;
 }
 
-html, body {
-  background-color: var(--bg) !important;
-  color: var(--text) !important;
-}
-
 /* DARK MODE */
 [data-theme="dark"] {
-  color-scheme: dark;
   --bg: #111111;
-  --text: #e8e8e8;
+  --text: #eeeeee;
   --link: #66cccc;
   --border: #444444;
 }
+
 
 /* APPLY VARIABLES */
 body {
