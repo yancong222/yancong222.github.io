@@ -104,7 +104,7 @@
 
     <p><strong>Email: cong4 at purdue dot edu</strong> </p>
    
-    <i><p>Last updated on Oct 2025</p>
+    <i><p>Last updated on Nov 2025</p>
         </i>
         
 
@@ -112,6 +112,33 @@
     <br>
 
     </div>
+
+<script>
+(function() {
+  const btn = document.getElementById("theme-toggle");
+
+  // load saved theme
+  const saved = localStorage.getItem("theme");
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+
+  // set initial button label
+  function updateLabel() {
+    const theme = document.documentElement.getAttribute("data-theme");
+    btn.textContent = theme === "dark" ? "☀️ Light" : "🌙 Dark";
+  }
+  updateLabel();
+
+  // toggle handler
+  btn.addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+    updateLabel();
+  });
+})();
+</script>
+
     
     </body>
     
