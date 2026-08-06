@@ -14,10 +14,10 @@ html, body {
 
 /* Warm dark theme */
 [data-theme="dark"] {
-    --bg: #2d2a26;      /* warm charcoal instead of black */
-    --text: #e8e4db;    /* warm off-white */
+    --bg: #2d2a26;
+    --text: #e8e4db;
     --border: #5b554d;
-    --link: #76c7c0;    /* brighter teal */
+    --link: #76c7c0;
 }
 
 
