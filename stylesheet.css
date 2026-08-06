@@ -12,12 +12,12 @@ html, body {
   --border: #cccccc;
 }
 
-/* DARK MODE */
+/* Warm dark theme */
 [data-theme="dark"] {
-  --bg: #111111;
-  --text: #eeeeee;
-  --link: #66cccc;
-  --border: #444444;
+    --bg: #2d2a26;      /* warm charcoal instead of black */
+    --text: #e8e4db;    /* warm off-white */
+    --border: #5b554d;
+    --link: #76c7c0;    /* brighter teal */
 }
 
 
