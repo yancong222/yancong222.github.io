@@ -76,6 +76,20 @@
       #sidebar{display:none}
       #content{margin:84px 16px 32px; padding:100px 12px}
     }
+  /* Ensure HTML layout overrides external stylesheet */
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+#content {
+  padding-top: 150px;
+}
+
+summary {
+  scroll-margin-top: 150px;
+}
   </style>
 </head>
 <body>
